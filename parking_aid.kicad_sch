@@ -4,13 +4,6 @@
 	(generator_version "8.0")
 	(uuid "63ed2dac-40cb-45ba-a179-4072aec41d30")
 	(paper "A4")
-	(title_block
-		(title "Pakring Aid")
-		(date "2017-07-31")
-		(rev "2")
-		(company "University of Derby")
-		(comment 1 "David WIlson")
-	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LM324A"
 			(pin_names
@@ -2306,7 +2299,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 156.21) (xy 43.18 157.48)
+			(xy 43.18 156.21) (xy 43.18 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2536,7 +2529,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 127) (xy 128.27 88.9)
+			(xy 128.27 130.81) (xy 128.27 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2856,7 +2849,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 153.67) (xy 128.27 134.62)
+			(xy 128.27 153.67) (xy 128.27 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3172,7 +3165,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1uF"
 			(at 111.76 134.62 90)
 			(effects
 				(font
@@ -3307,7 +3300,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 123.19 148.5899 0)
 			(effects
 				(font
@@ -3434,7 +3427,7 @@
 		(dnp no)
 		(uuid "35607105-98b9-4b6f-ab37-282ddfb963c2")
 		(property "Reference" "U3"
-			(at 182.626 126.746 0)
+			(at 183.896 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,7 +3435,7 @@
 			)
 		)
 		(property "Value" "LM324A"
-			(at 182.88 129.286 0)
+			(at 182.118 134.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3546,7 +3539,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1M"
 			(at 175.26 149.8599 0)
 			(effects
 				(font
@@ -3599,7 +3592,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 128.27 130.81 0)
+		(at 128.27 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3608,7 +3601,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d109ad2-f649-4f0e-a772-e1b45eab02d1")
 		(property "Reference" "R11"
-			(at 130.81 129.5399 0)
+			(at 130.81 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3616,8 +3609,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 130.81 132.0799 0)
+		(property "Value" "1k"
+			(at 130.81 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3626,7 +3619,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 126.492 130.81 90)
+			(at 126.492 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,7 +3628,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 130.81 0)
+			(at 128.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3644,7 +3637,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 128.27 130.81 0)
+			(at 128.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3669,7 +3662,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 157.48 0)
+		(at 43.18 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3678,7 +3671,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e4ae8d4-8c54-462d-b75b-1620c357761c")
 		(property "Reference" "#PWR07"
-			(at 43.18 163.83 0)
+			(at 43.18 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,7 +3680,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 162.56 0)
+			(at 43.18 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,7 +3688,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 157.48 0)
+			(at 43.18 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,7 +3697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 157.48 0)
+			(at 43.18 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +3706,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 157.48 0)
+			(at 43.18 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3752,7 +3745,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 222.25 104.1399 0)
 			(effects
 				(font
@@ -3811,18 +3804,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "486a2d17-622f-419e-bfd5-66e22ab49a9f")
 		(property "Reference" "R3"
-			(at 95.25 116.84 90)
+			(at 95.25 118.618 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 95.25 119.38 90)
+		(property "Value" "1M"
+			(at 95.25 120.904 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,10 +3941,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4f64e614-b7b3-4060-99ac-9137349daf36")
 		(property "Reference" "C5"
-			(at 166.37 146.4309 0)
+			(at 165.862 147.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,7 +3952,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 166.37 148.9709 0)
+			(at 165.862 149.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4206,7 +4197,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 48.26 45.7199 0)
 			(effects
 				(font
@@ -4276,7 +4267,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 154.94 135.8899 0)
 			(effects
 				(font
@@ -4346,7 +4337,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "33"
 			(at 95.25 39.3699 0)
 			(effects
 				(font
@@ -4415,7 +4406,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47pF"
 			(at 95.25 106.68 90)
 			(effects
 				(font
@@ -4484,7 +4475,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 204.47 104.1399 0)
 			(effects
 				(font
@@ -4612,10 +4603,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8b2d79bc-d06f-404f-8413-8bf53a26f828")
 		(property "Reference" "U3"
-			(at 95.25 129.54 0)
+			(at 95.758 135.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4623,7 +4613,7 @@
 			)
 		)
 		(property "Value" "LM324A"
-			(at 95.25 132.08 0)
+			(at 94.234 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4814,7 +4804,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 240.03 104.1399 0)
 			(effects
 				(font
@@ -5149,10 +5139,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b78e0ed5-3a5a-4e86-b9a5-6a366a822f32")
 		(property "Reference" "U3"
-			(at 182.88 110.49 0)
+			(at 183.896 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5160,7 +5149,7 @@
 			)
 		)
 		(property "Value" "LM324A"
-			(at 182.88 113.03 0)
+			(at 182.118 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5264,7 +5253,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10n"
 			(at 64.77 46.9899 0)
 			(effects
 				(font
@@ -5334,7 +5323,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 154.94 149.8599 0)
 			(effects
 				(font
@@ -5404,7 +5393,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4k7"
 			(at 154.94 109.2199 0)
 			(effects
 				(font
@@ -5474,7 +5463,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k5"
 			(at 154.94 123.1899 0)
 			(effects
 				(font
@@ -5916,7 +5905,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 48.26 57.1499 0)
 			(effects
 				(font
@@ -6107,10 +6096,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f38fa1ff-bdc5-40c8-bf0d-0a17aebd40f9")
 		(property "Reference" "U3"
-			(at 182.88 96.52 0)
+			(at 184.404 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6118,7 +6106,7 @@
 			)
 		)
 		(property "Value" "LM324A"
-			(at 182.88 99.06 0)
+			(at 181.864 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
