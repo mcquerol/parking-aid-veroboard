@@ -5522,10 +5522,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ccbf212c-dca3-4a86-aec3-84ad486a82ce")
 		(property "Reference" "D2"
-			(at 139.7 133.35 0)
+			(at 139.7 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
